@@ -1,5 +1,14 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
   --main-font: "Inter-Variable.woff2", sans-serif;
-  --accent-font: "PressStart2P-Regular.woff", sans-serif
-}
+  --accent-font: "PressStart2P-Regular.woff", sans-serif;
+  --header-inline-size: 700px;
+  --header-block-size: 368px;
+  --main-inline-size: 700px;
+  --contour-color: #000;
+  --animation-fill-color: #ff0000;
+  --page-bg: 
+    repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
+    repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(#e7e7e7, #1a1a1a);
+  }

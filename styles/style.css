@@ -10,21 +10,6 @@
 
 */
 
-:root {
-  --header-inline-size: 700px;
-  --header-block-size: 368px;
-  --main-inline-size: 700px;
-  --contour-color: #000;
-  --animation-fill-color: #ff0000;
-
-/*
-  --page-bg: 
-    repeating-linear-gradient(90deg, #d3d3d3 0 2px, transparent 2px 4px),
-    repeating-linear-gradient(0deg, #d3d3d3 0 2px, transparent 2px 4px),
-    linear-gradient(#e7e7e7, #1a1a1a); */
-}
-
-
 .page {
   
   min-inline-size: 320px;
@@ -33,16 +18,12 @@
   font-family: var(--main-font);
   display: grid;
   justify-content: center;
-  
-  letter-spacing: 0px;
 
+  letter-spacing: 0px;
   background-image: var(--page-bg);
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
-  /*
-  margin: auto;
-  max-inline-size: 1400px; */
 }
 
 .header {
@@ -121,7 +102,7 @@
   line-height: 21px;
 }
 
-.main-section-text:first-child{
+.main-section-text:first-child {
   margin-block-end: 27px;
 }
 
@@ -142,7 +123,7 @@
   background-color: transparent;
 }
 
-.like-icon { 
+.like-icon {
   inline-size: 39px;
   block-size: 100%;
 }
@@ -376,14 +357,11 @@ button {
 
 .like-icon.is-liked .sparks {
   animation: sparks-appear 0.3s ease-in 0.3s;
+  opacity: 0;
 }
 
 .like-icon.is-liked .heart {
   transform: scale(1);
-}
-
-.like-icon.is-liked .sparks {
-  opacity: 0;
 }
 
 
