@@ -353,15 +353,12 @@ button {
 .like-icon.is-liked .heart {
   transform-origin: center;
   animation: scale-heart 0.3s ease-in 0.1s;
+  transform: scale(1);
 }
 
 .like-icon.is-liked .sparks {
   animation: sparks-appear 0.3s ease-in 0.3s;
   opacity: 0;
-}
-
-.like-icon.is-liked .heart {
-  transform: scale(1);
 }
 
 
